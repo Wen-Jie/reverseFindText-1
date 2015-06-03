@@ -1,0 +1,62 @@
+---
+:source:
+  :path: test
+  :file: test_reverseFindText.c
+:successes:
+- :test: test_reverseFindText_find_A_in_A_should_return_1
+  :line: 7
+  :message: ''
+- :test: test_reverseFindText_find_B_in_A_should_return_minus1
+  :line: 12
+  :message: ''
+- :test: test_reverseFindText_find_C_in_ABCD_should_return_3
+  :line: 17
+  :message: ''
+- :test: test_reverseFindText_find_A_in_ABCD_should_return_1
+  :line: 22
+  :message: ''
+- :test: test_reverseFindText_find_E_in_ABCD_should_return_minus1
+  :line: 27
+  :message: ''
+- :test: test_reverseFindText_find_CD_in_ABCD_should_return_3
+  :line: 32
+  :message: ''
+- :test: test_reverseFindText_find_AB_in_ABCD_should_return_1
+  :line: 37
+  :message: ''
+- :test: test_reverseFindText_find_ED_in_ABCD_should_return_minus1
+  :line: 42
+  :message: ''
+- :test: test_reverseFindText_find_DE_in_ABCD_should_return_minus1
+  :line: 47
+  :message: ''
+- :test: test_reverseFindText_find_ABC_in_ABCD_should_return_1
+  :line: 52
+  :message: ''
+- :test: test_reverseFindText_find_BCD_in_ABCDEFG_should_return_2
+  :line: 57
+  :message: ''
+- :test: test_reverseFindText_find_GB_in_ABCDEFGBCHI_should_return_7
+  :line: 62
+  :message: ''
+- :test: test_reverseFindText_find_RARAT_in_RRARAARARARATUI_should_return_9
+  :line: 67
+  :message: ''
+- :test: test_reverseFindText_find_ABC_in_RRARAARARARATUI_should_return_minus1
+  :line: 72
+  :message: ''
+- :test: test_reverseFindText_find_lad_in_Hello_my_name_is_Alladin_should_return_21
+  :line: 77
+  :message: ''
+- :test: test_reverseFindText_find_coma_and_space_in_Hello_my_name_is_Alladin_should_return_6
+  :line: 82
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 16
+  :passed: 16
+  :failed: 0
+  :ignored: 0
+:stdout:
+- ''
